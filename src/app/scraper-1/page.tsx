@@ -1,5 +1,6 @@
 // Test scraper-1. Ajusted for scraping of specific part of html page only: https://www.iata.org/en/events/
 // by input of the specific link into browser (example: http://localhost:3000/scraper-1?url=https://example.com)
+import axios from 'axios';
 import * as cheerio from 'cheerio';
 
 interface ParseProps {
