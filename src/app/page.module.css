@@ -7,6 +7,23 @@
   min-height: 100vh;
 }
 
+.imgCard {
+  width: 300px;
+  aspect-ratio: 300px / 130px;
+}
+
+.box__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_style_type_events {
+  list-style: none;
+  padding-top: 45px;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
